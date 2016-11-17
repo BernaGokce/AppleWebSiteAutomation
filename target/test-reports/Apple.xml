@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="eubgokce.local" name="Apple" tests="6" errors="0" failures="1" time="22.761">
+                     <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib"/><property name="java.vm.version" value="25.73-b02"/><property name="user.country.format" value="GB"/><property name="gopherProxySet" value="false"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=":"/><property name="idea.launcher.port" value="7546"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/Users/bgokce/Desktop/ScalaTest"/><property name="java.runtime.version" value="1.8.0_73-b02"/><property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/><property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/endorsed"/><property name="os.arch" value="x86_64"/><property name="java.io.tmpdir" value="/var/folders/77/35nv3q190jzg7ygf1m7593n40000gn/T/"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="os.name" value="Mac OS X"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="java.library.path" value="/Users/bgokce/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.11.3"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="user.home" value="/Users/bgokce"/><property name="user.timezone" value="Europe/Moscow"/><property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="idea.launcher.bin.path" value="/Applications/IntelliJ IDEA.app/Contents/bin"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="/Users/bgokce/Library/Application Support/IntelliJIdea2016.2/Scala/launcher/sbt-launch.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar"/><property name="user.name" value="bgokce"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain xsbt.boot.Boot test"/><property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_73"/><property name="java.ext.dirs" value="/Users/bgokce/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/><property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="sun.cpu.endian" value="little"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="sun.cpu.isalist" value=""/>
+    </properties>
+                     <testcase classname="Apple" name="Apple's home page should navigate to all iPhone's information page" time="15.762">
+                                                 
+                                               </testcase><testcase classname="Apple" name="iPhone 7 information page should also has keynote and watch the tv adds options" time="0.092">
+                                                 <failure message="unknown error: Element is not clickable at point (402, 874). Other element would receive the click: &lt;div class=&quot;hero-intro typography-intro&quot; style=&quot;opacity: 0.130881; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -139.059, 0.000261763, 1);&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=54.0.2840.98)
+  (Driver info: chromedriver=2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1),platform=Mac OS X 10.11.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 68 milliseconds
+Build info: version: '2.35.0', revision: '8df0c6bedf70ff9f22c647788f9fe9c8d22210e2', time: '2013-08-17 12:46:41'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.3', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1), userDataDir=/var/folders/77/35nv3q190jzg7ygf1m7593n40000gn/T/.org.chromium.Chromium.CokKuv}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=54.0.2840.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e9a5d833be853aac02743428549130c3" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (402, 874). Other element would receive the click: &lt;div class=&quot;hero-intro typography-intro&quot; style=&quot;opacity: 0.130881; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -139.059, 0.000261763, 1);&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=54.0.2840.98)
+  (Driver info: chromedriver=2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1),platform=Mac OS X 10.11.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 68 milliseconds
+Build info: version: '2.35.0', revision: '8df0c6bedf70ff9f22c647788f9fe9c8d22210e2', time: '2013-08-17 12:46:41'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.3', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1), userDataDir=/var/folders/77/35nv3q190jzg7ygf1m7593n40000gn/T/.org.chromium.Chromium.CokKuv}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=54.0.2840.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e9a5d833be853aac02743428549130c3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at org.scalatest.selenium.WebBrowser$click$.on(WebBrowser.scala:3788)
+	at Apple$$anonfun$2.apply$mcV$sp(Apple.scala:19)
+	at Apple$$anonfun$2.apply(Apple.scala:18)
+	at Apple$$anonfun$2.apply(Apple.scala:18)
+	at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)
+	at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)
+	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+	at org.scalatest.Transformer.apply(Transformer.scala:22)
+	at org.scalatest.Transformer.apply(Transformer.scala:20)
+	at org.scalatest.FlatSpecLike$$anon$1.apply(FlatSpecLike.scala:1647)
+	at org.scalatest.Suite$class.withFixture(Suite.scala:1122)
+	at org.scalatest.FlatSpec.withFixture(FlatSpec.scala:1683)
+	at org.scalatest.FlatSpecLike$class.invokeWithFixture$1(FlatSpecLike.scala:1644)
+	at org.scalatest.FlatSpecLike$$anonfun$runTest$1.apply(FlatSpecLike.scala:1656)
+	at org.scalatest.FlatSpecLike$$anonfun$runTest$1.apply(FlatSpecLike.scala:1656)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:306)
+	at org.scalatest.FlatSpecLike$class.runTest(FlatSpecLike.scala:1656)
+	at org.scalatest.FlatSpec.runTest(FlatSpec.scala:1683)
+	at org.scalatest.FlatSpecLike$$anonfun$runTests$1.apply(FlatSpecLike.scala:1714)
+	at org.scalatest.FlatSpecLike$$anonfun$runTests$1.apply(FlatSpecLike.scala:1714)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:413)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:401)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:401)
+	at org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:390)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:427)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:401)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:401)
+	at org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:396)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:483)
+	at org.scalatest.FlatSpecLike$class.runTests(FlatSpecLike.scala:1714)
+	at org.scalatest.FlatSpec.runTests(FlatSpec.scala:1683)
+	at org.scalatest.Suite$class.run(Suite.scala:1424)
+	at org.scalatest.FlatSpec.org$scalatest$FlatSpecLike$$super$run(FlatSpec.scala:1683)
+	at org.scalatest.FlatSpecLike$$anonfun$run$1.apply(FlatSpecLike.scala:1760)
+	at org.scalatest.FlatSpecLike$$anonfun$run$1.apply(FlatSpecLike.scala:1760)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:545)
+	at org.scalatest.FlatSpecLike$class.run(FlatSpecLike.scala:1760)
+	at org.scalatest.FlatSpec.run(FlatSpec.scala:1683)
+	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:357)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:502)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:76)
+	at sbt.TestRunner.run(TestFramework.scala:85)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:202)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:202)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:185)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:202)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:202)
+	at sbt.TestFunction.apply(TestFramework.scala:207)
+	at sbt.Tests$$anonfun$9.apply(Tests.scala:216)
+	at sbt.Tests$$anonfun$9.apply(Tests.scala:216)
+	at sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:44)
+	at sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:44)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</failure>
+                                               </testcase><testcase classname="Apple" name="iPhone 7 information page should also has desing and product film videos" time="1.2">
+                                                 
+                                               </testcase><testcase classname="Apple" name="iPhone 7 information page should also has learn more option" time="0.386">
+                                                 
+                                               </testcase><testcase classname="Apple" name="iPhone 7 information page should also navigate to shopping page" time="5.205">
+                                                 
+                                               </testcase><testcase classname="Apple" name="Apple shopping page should also give another option for simcard" time="0.116">
+                                                 
+                                               </testcase>
+                     <system-out></system-out>
+                     <system-err></system-err>
+                   </testsuite>
